@@ -45,7 +45,7 @@ export default function Home() {
   const { colorMode, toggleColorMode } = useColorMode();
   function handleResume() {
     window.open(
-      `https://drive.google.com/file/d/13rG19dMP_ObsGn7sXtKn0C_4emZoAyrY/view?usp=sharing`
+      `https://drive.google.com/file/d/1sEeFAlQRem1nkG7-vqQvaBtgipNDp6J3/view?usp=sharing`
     );
   }
   return (
@@ -229,8 +229,10 @@ export default function Home() {
               w={{ base: "200px", lg: "300px" }}
               mt="-10px"
               rounded={"md"}
+          
               alt={"feature image"}
               src={photo}
+              
               objectFit={"cover"}
             />
           </Flex>
