@@ -43,11 +43,17 @@ const Feature = ({ text, icon, iconBg }) => {
 
 export default function Home() {
   const { colorMode, toggleColorMode } = useColorMode();
-  function handleResume() {
+  // function handleResume() {
+  //   window.open(
+  //     `https://drive.google.com/file/d/1sEeFAlQRem1nkG7-vqQvaBtgipNDp6J3/view?usp=sharing`
+  //   );
+  // }
+   function handleResume() {
     window.open(
-      `https://drive.google.com/file/d/1sEeFAlQRem1nkG7-vqQvaBtgipNDp6J3/view?usp=sharing`
+      `https://drive.google.com/file/d/1kvQ8nkXm6h_uN9yVggi4gpYEYD2pJSpi/view?usp=sharing`
     );
   }
+  
   return (
     <>
       <Box id="home" h="30px"></Box>
